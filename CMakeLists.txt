@@ -19,7 +19,7 @@ add_executable(task2_fit src/task2_fit/main.cpp)
 target_include_directories(task2_fit PRIVATE ${OpenCV_INCLUDE_DIRS})
 target_link_libraries(task2_fit PRIVATE ${OpenCV_LIBS} Eigen3::Eigen Ceres::ceres)
 
-# ================= Ceres测试 =================
-add_executable(task3_windmill src/task3_windmill/main.cpp) 
+# ================= 任务3：能量机关识别与跟踪 =================
+add_executable(task3_windmill src/task3_windmill/main.cpp)
 target_include_directories(task3_windmill PRIVATE ${OpenCV_INCLUDE_DIRS})
-target_link_libraries(task3_windmill PRIVATE ${OpenCV_LIBS} Eigen3::Eigen Ceres::ceres)
+target_link_libraries(task3_windmill PRIVATE ${OpenCV_LIBS} Eigen3::Eigen)
