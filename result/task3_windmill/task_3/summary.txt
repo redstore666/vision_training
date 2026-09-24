@@ -1,18 +1,17 @@
 frames=796
 fps=30
 size=1440x1080
-target_detected=436
-target_lost=155
-lit_frames=507
-r_detected=147
-r_estimated=164
-ids_used=7
+target_detected=413
+target_lost=178
+lit_frames=499
+r_detected=443
+r_estimated=146
+ids_total=35
+lock_selections=7
 event: frame 206: locked target ID 1 at (753,717)
-event: frame 479: R adopted at (604,503)
-event: frame 484: target ID 1 extinguished, reselect -> new ID
-event: frame 528: target ID 2 extinguished, reselect -> new ID
-event: frame 559: target ID 3 extinguished, reselect -> new ID
-event: frame 628: target ID 4 extinguished, reselect -> new ID
-event: frame 645: target ID 5 extinguished, reselect -> new ID
-event: frame 726: target ID 6 extinguished, reselect -> new ID
-event: frame 788: R glyph lost too long, give up estimate
+event: frame 484: target ID 1 extinguished, reselect -> ID 7
+event: frame 528: target ID 7 extinguished, reselect -> ID 10
+event: frame 549: target ID 10 extinguished, reselect -> ID 12
+event: frame 564: target ID 12 extinguished, reselect -> ID 13
+event: frame 645: target ID 13 extinguished, reselect -> ID 22
+event: frame 728: target ID 22 extinguished, reselect -> ID 27

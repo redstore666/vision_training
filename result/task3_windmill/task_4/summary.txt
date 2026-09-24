@@ -1,38 +1,31 @@
 frames=1800
 fps=30
 size=1440x1080
-target_detected=959
-target_lost=657
-lit_frames=1244
-r_detected=762
-r_estimated=969
-ids_used=21
-event: frame 3: R adopted at (814,675)
+target_detected=948
+target_lost=668
+lit_frames=1241
+r_detected=1071
+r_estimated=511
+ids_total=91
+lock_selections=20
 event: frame 10: locked target ID 1 at (702,922)
-event: frame 49: target ID 1 extinguished, reselect -> new ID
-event: frame 193: target ID 2 extinguished, reselect -> new ID
-event: frame 253: target ID 3 extinguished, reselect -> new ID
-event: frame 293: target ID 4 extinguished, reselect -> new ID
-event: frame 314: target ID 5 extinguished, reselect -> new ID
-event: frame 336: target ID 6 extinguished, reselect -> new ID
-event: frame 351: target ID 7 extinguished, reselect -> new ID
-event: frame 374: target ID 8 extinguished, reselect -> new ID
-event: frame 390: R glyph lost too long, give up estimate
-event: frame 395: R adopted at (757,741)
-event: frame 482: target ID 9 extinguished, reselect -> new ID
-event: frame 540: target ID 10 extinguished, reselect -> new ID
-event: frame 626: target ID 11 extinguished, reselect -> new ID
-event: frame 745: target ID 12 released after 46 lost frames
-event: frame 850: R glyph lost too long, give up estimate
-event: frame 918: R adopted at (703,604)
-event: frame 920: locked target ID 13 at (908,598)
-event: frame 1056: target ID 13 extinguished, reselect -> new ID
-event: frame 1229: target ID 14 extinguished, reselect -> new ID
-event: frame 1406: target ID 15 extinguished, reselect -> new ID
-event: frame 1424: target ID 16 extinguished, reselect -> new ID
-event: frame 1441: target ID 17 extinguished, reselect -> new ID
-event: frame 1567: target ID 18 extinguished, reselect -> new ID
-event: frame 1636: target ID 19 extinguished, reselect -> new ID
-event: frame 1701: R glyph lost too long, give up estimate
-event: frame 1702: R adopted at (703,604)
-event: frame 1756: target ID 20 extinguished, reselect -> new ID
+event: frame 49: target ID 1 extinguished, reselect -> ID 3
+event: frame 205: target ID 3 extinguished, reselect -> ID 13
+event: frame 254: target ID 13 extinguished, reselect -> ID 19
+event: frame 303: target ID 19 extinguished, reselect -> ID 24
+event: frame 336: target ID 24 extinguished, reselect -> ID 26
+event: frame 374: target ID 26 extinguished, reselect -> ID 28
+event: frame 389: target ID 28 extinguished, reselect -> ID 32
+event: frame 483: target ID 32 extinguished, reselect -> ID 37
+event: frame 516: target ID 37 extinguished, reselect -> ID 28
+event: frame 545: target ID 28 extinguished, reselect -> ID 47
+event: frame 567: target ID 47 extinguished, reselect -> ID 50
+event: frame 660: target ID 50 extinguished, reselect -> ID 57
+event: frame 745: target ID 57 released after 46 lost frames
+event: frame 920: locked target ID 60 at (908,598)
+event: frame 1060: target ID 60 extinguished, reselect -> ID 65
+event: frame 1229: target ID 65 extinguished, reselect -> ID 69
+event: frame 1404: target ID 69 extinguished, reselect -> ID 74
+event: frame 1568: target ID 74 extinguished, reselect -> ID 80
+event: frame 1653: target ID 80 extinguished, reselect -> ID 82
+event: frame 1756: target ID 82 extinguished, reselect -> ID 89
