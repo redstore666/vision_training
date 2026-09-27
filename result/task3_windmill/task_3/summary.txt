@@ -1,17 +1,18 @@
 frames=796
 fps=30
 size=1440x1080
-target_detected=413
-target_lost=178
-lit_frames=499
-r_detected=443
-r_estimated=146
-ids_total=35
-lock_selections=7
-event: frame 206: locked target ID 1 at (753,717)
-event: frame 484: target ID 1 extinguished, reselect -> ID 7
-event: frame 528: target ID 7 extinguished, reselect -> ID 10
-event: frame 549: target ID 10 extinguished, reselect -> ID 12
-event: frame 564: target ID 12 extinguished, reselect -> ID 13
-event: frame 645: target ID 13 extinguished, reselect -> ID 22
-event: frame 728: target ID 22 extinguished, reselect -> ID 27
+target_detected=404
+target_lost=111
+target_observed=369
+lit_frames=445
+dual_frames=0
+r_detected=471
+r_estimated=98
+lock_selections=0
+event: frame 224: initialized (R + fan), radius=213
+event: frame 508: R lost too long, re-init
+event: frame 562: initialized (R + fan), radius=178
+event: frame 639: R lost too long, re-init
+event: frame 643: initialized (R + fan), radius=206
+event: frame 724: slot re-validated out of range, reset
+event: frame 724: slot re-validated out of range, reset

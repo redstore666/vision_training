@@ -1,31 +1,46 @@
 frames=1800
 fps=30
 size=1440x1080
-target_detected=948
-target_lost=668
-lit_frames=1241
-r_detected=1071
-r_estimated=511
-ids_total=91
-lock_selections=20
-event: frame 10: locked target ID 1 at (702,922)
-event: frame 49: target ID 1 extinguished, reselect -> ID 3
-event: frame 205: target ID 3 extinguished, reselect -> ID 13
-event: frame 254: target ID 13 extinguished, reselect -> ID 19
-event: frame 303: target ID 19 extinguished, reselect -> ID 24
-event: frame 336: target ID 24 extinguished, reselect -> ID 26
-event: frame 374: target ID 26 extinguished, reselect -> ID 28
-event: frame 389: target ID 28 extinguished, reselect -> ID 32
-event: frame 483: target ID 32 extinguished, reselect -> ID 37
-event: frame 516: target ID 37 extinguished, reselect -> ID 28
-event: frame 545: target ID 28 extinguished, reselect -> ID 47
-event: frame 567: target ID 47 extinguished, reselect -> ID 50
-event: frame 660: target ID 50 extinguished, reselect -> ID 57
-event: frame 745: target ID 57 released after 46 lost frames
-event: frame 920: locked target ID 60 at (908,598)
-event: frame 1060: target ID 60 extinguished, reselect -> ID 65
-event: frame 1229: target ID 65 extinguished, reselect -> ID 69
-event: frame 1404: target ID 69 extinguished, reselect -> ID 74
-event: frame 1568: target ID 74 extinguished, reselect -> ID 80
-event: frame 1653: target ID 80 extinguished, reselect -> ID 82
-event: frame 1756: target ID 82 extinguished, reselect -> ID 89
+target_detected=488
+target_lost=587
+target_observed=406
+lit_frames=812
+dual_frames=140
+r_detected=936
+r_estimated=692
+lock_selections=9
+event: frame 98: R lost, re-searching
+event: frame 105: initialized (R + fan), radius=194
+event: frame 114: slot re-validated out of range, reset
+event: frame 114: slot re-validated out of range, reset
+event: frame 128: target -> slot 1 (new ID 2)
+event: frame 149: target -> slot 0 (new ID 3)
+event: frame 210: R lost too long, re-init
+event: frame 214: initialized (R + fan), radius=227
+event: frame 265: R lost too long, re-init
+event: frame 298: initialized (R + fan), radius=219
+event: frame 352: R lost too long, re-init
+event: frame 357: initialized (R + fan), radius=174
+event: frame 405: R lost too long, re-init
+event: frame 424: initialized (R + fan), radius=175
+event: frame 511: R lost too long, re-init
+event: frame 789: R lost, re-searching
+event: frame 920: initialized (R + fan), radius=196
+event: frame 978: target -> slot 4 (new ID 9)
+event: frame 1033: target -> slot 0 (new ID 10)
+event: frame 1091: target -> slot 2 (new ID 11)
+event: frame 1196: target -> slot 0 (new ID 12)
+event: frame 1288: target released after 46 lost frames
+event: frame 1334: target -> slot 0 (new ID 13)
+event: frame 1386: target released after 46 lost frames
+event: frame 1396: slot re-validated out of range, reset
+event: frame 1396: slot re-validated out of range, reset
+event: frame 1396: slot re-validated out of range, reset
+event: frame 1412: target -> slot 0 (new ID 14)
+event: frame 1565: R lost too long, re-init
+event: frame 1592: initialized (R + fan), radius=135
+event: frame 1641: R lost too long, re-init
+event: frame 1694: initialized (R + fan), radius=198
+event: frame 1717: target -> slot 3 (new ID 17)
+event: frame 1774: R lost too long, re-init
+event: frame 1778: initialized (R + fan), radius=202
