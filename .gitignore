@@ -4,11 +4,10 @@ build/
 # 编辑器临时文件
 .vscode/
 *.swp
+.zcode/
 
 # 系统文件
 .DS_Store
-# 任务3视频（太大，单独邮件提交）
-result/task3_windmill/**/*.mp4
 
 # Debug 图片
 result/**/debug/*.png
