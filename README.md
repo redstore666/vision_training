@@ -48,6 +48,7 @@ make
 ---
 
 ## 3.目录结构
+```text
 vision_training/
 ├── CMakeLists.txt
 ├── README.md
@@ -75,7 +76,7 @@ vision_training/
     │   ├── task_3/
     │   └── task_4/
     └── task3_tracking_result.md # 任务3说明文件
-
+```
 ---
 
 ## 4. 输入输出路径
@@ -164,31 +165,40 @@ HSV 单通道：split 分离 H、S、V
 ---
 
 ## 7. 全部结果索引
-7.1 任务1 结果图（result/task1_images/）
-文件名	说明
-gray.png	灰度图
-hsv_h.png / hsv_s.png / hsv_v.png	HSV 三通道
-mean_filter.png / gaussian_filter.png / median_filter.png	三种滤波结果
-red_mask.png	红色掩膜
-erode.png / dilate.png / open.png / close.png	形态学操作
-contours_boxes.png	轮廓筛选与外接矩形
-drawing.png	绘制圆、矩形、文字
-rotated_35deg.png	旋转 35°
-crop_top_left.png	裁剪左上角 1/4
-7.2 任务2 结果（result/task2_fit/）
-文件名	说明
-tracking_overlay.mp4	带识别标记的视频
-fit_comparison.png	观测点与拟合曲线对比
-angular_velocity.png	角速度曲线
-residuals.png	残差图
-observations.csv	原始观测数据（t, theta, omega）
-../task2_fit_result.md	任务2参数、方法与误差指标说明
-7.3 任务3 结果（result/task3_windmill/）
-路径	说明
-task_3/recognition_overlay.mp4	小能量机关识别视频（796 帧，30 FPS）
-task_4/recognition_overlay.mp4	大能量机关识别视频（1800 帧，30 FPS）
-task_3/binary_process.mp4（建议项）	二值化过程
-task_4/binary_process.mp4（建议项）	二值化过程
-task_3/track_log.csv、task_4/track_log.csv	逐帧跟踪结果（R 状态/位置、目标状态/ID/角度、点亮数）
-task_3/summary.txt、task_4/summary.txt	运行统计与锁定/重选事件日志
-../task3_tracking_result.md	任务3检测、锁定、丢失与重选规则说明
+
+### 7.1 任务1 结果图（`result/task1_images/`）
+
+| 文件名 | 说明 |
+|:---|:---|
+| `gray.png` | 灰度图 |
+| `hsv_h.png` / `hsv_s.png` / `hsv_v.png` | HSV 三通道 |
+| `mean_filter.png` / `gaussian_filter.png` / `median_filter.png` | 三种滤波结果 |
+| `red_mask.png` | 红色掩膜 |
+| `erode.png` / `dilate.png` / `open.png` / `close.png` | 形态学操作 |
+| `contours_boxes.png` | 轮廓筛选与外接矩形 |
+| `drawing.png` | 绘制圆、矩形、文字 |
+| `rotated_35deg.png` | 旋转 35° |
+| `crop_top_left.png` | 裁剪左上角 1/4 |
+
+### 7.2 任务2 结果（`result/task2_fit/`）
+
+| 文件名 | 说明 |
+|:---|:---|
+| `tracking_overlay.mp4` | 带识别标记的视频 |
+| `fit_comparison.png` | 观测点与拟合曲线对比 |
+| `angular_velocity.png` | 角速度曲线 |
+| `residuals.png` | 残差图 |
+| `observations.csv` | 原始观测数据（t, theta, omega） |
+| `../task2_fit_result.md` | 任务2参数、方法与误差指标说明 |
+
+### 7.3 任务3 结果（`result/task3_windmill/`）
+
+| 路径 | 说明 |
+|:---|:---|
+| `task_3/recognition_overlay.mp4` | 小能量机关识别视频（796 帧，30 FPS） |
+| `task_4/recognition_overlay.mp4` | 大能量机关识别视频（1800 帧，30 FPS） |
+| `task_3/binary_process.mp4`（建议项） | 二值化过程 |
+| `task_4/binary_process.mp4`（建议项） | 二值化过程 |
+| `task_3/track_log.csv`、`task_4/track_log.csv` | 逐帧跟踪结果（R 状态/位置、目标状态/ID/角度、点亮数） |
+| `task_3/summary.txt`、`task_4/summary.txt` | 运行统计与锁定/重选事件日志 |
+| `../task3_tracking_result.md` | 任务3检测、锁定、丢失与重选规则说明 |
